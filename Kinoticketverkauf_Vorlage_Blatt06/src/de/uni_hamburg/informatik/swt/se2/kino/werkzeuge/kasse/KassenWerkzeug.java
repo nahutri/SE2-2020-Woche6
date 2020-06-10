@@ -53,8 +53,8 @@ public class KassenWerkzeug implements Beobachter
         _vorstellungAuswaehlWerkzeug = new VorstellungsAuswaehlWerkzeug();
 
         //Observer einrichten
-        _datumAuswaehlWerkzeug.fuegeBeobachterHinzu(this);
-        _vorstellungAuswaehlWerkzeug.fuegeBeobachterHinzu(this);
+        _datumAuswaehlWerkzeug.fuegeBeobachterHinzu(this);//Blatt 06
+        _vorstellungAuswaehlWerkzeug.fuegeBeobachterHinzu(this);//Blatt 06
 
         // UI erstellen (mit eingebetteten UIs der direkten Subwerkzeuge)
         _ui = new KassenWerkzeugUI(_platzVerkaufsWerkzeug.getUIPanel(),

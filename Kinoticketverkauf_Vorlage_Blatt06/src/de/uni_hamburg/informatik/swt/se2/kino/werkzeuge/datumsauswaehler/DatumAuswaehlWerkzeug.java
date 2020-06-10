@@ -42,7 +42,7 @@ public class DatumAuswaehlWerkzeug extends Beobachtbar
         _ausgewaehltesDatum = _ausgewaehltesDatum.vorherigerTag();
         _ui.getDatumLabel()
             .setText(_ausgewaehltesDatum.getFormatiertenString());
-        informiereUeberAenderung();
+        informiereUeberAenderung(); //Blatt 06
     }
 
     /**
@@ -53,7 +53,7 @@ public class DatumAuswaehlWerkzeug extends Beobachtbar
         _ausgewaehltesDatum = _ausgewaehltesDatum.naechsterTag();
         _ui.getDatumLabel()
             .setText(_ausgewaehltesDatum.getFormatiertenString());
-        informiereUeberAenderung();
+        informiereUeberAenderung(); //Blatt 06
     }
 
     /**
